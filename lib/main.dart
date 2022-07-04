@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_crash_course/concept_topics/row_col_wrap.dart';
 import 'package:flutter_crash_course/concept_topics/sized_container.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.lightBlue,
         brightness: Brightness.dark,
       ),
-      home: const SizedBox_Container(),
+      home: const RowCol(),
     );
   }
 }
