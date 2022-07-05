@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_crash_course/concept_topics/buttons.dart';
+import 'package:flutter_crash_course/concept_topics/list_grid_view.dart';
 import 'package:flutter_crash_course/concept_topics/row_col_wrap.dart';
 import 'package:flutter_crash_course/concept_topics/sized_container.dart';
 
@@ -16,9 +17,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.lightBlue,
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
       ),
-      home: const MyBtn(),
+      home: ListGridView(),
     );
   }
 }
