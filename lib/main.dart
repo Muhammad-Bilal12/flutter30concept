@@ -4,6 +4,7 @@ import 'package:flutter_crash_course/concept_topics/list_grid_view.dart';
 import 'package:flutter_crash_course/concept_topics/row_col_wrap.dart';
 import 'package:flutter_crash_course/concept_topics/sized_container.dart';
 
+import 'concept_topics/dismissible.dart';
 import 'concept_topics/snackbar.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.lightBlue,
         brightness: Brightness.light,
       ),
-      home: MySnackBar(),
+      home: const DissmissibleWidget(),
     );
   }
 }
