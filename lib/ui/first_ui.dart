@@ -29,6 +29,19 @@ class FirstScreen extends StatelessWidget {
                                       fit: BoxFit.cover)),
                             ),
                           ),
+                          Positioned(
+                              child: Padding(
+                            padding: EdgeInsets.all(20),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: const [
+                                Icon(
+                                  Icons.arrow_back_ios,
+                                ),
+                                Icon(Icons.favorite_border)
+                              ],
+                            ),
+                          )),
                           const Positioned(
                             bottom: 0,
                             right: 25,
