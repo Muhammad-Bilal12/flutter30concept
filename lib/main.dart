@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_crash_course/concept_topics/imageWidget.dart';
+import 'package:flutter_crash_course/ui/first_ui.dart';
 
 import 'concept_topics/drawer.dart';
 
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.lightBlue,
         brightness: Brightness.light,
       ),
-      home: const DrawerWidget(),
+      home: const FirstScreen(),
     );
   }
 }
